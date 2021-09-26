@@ -27,6 +27,7 @@ If you need an example of a good README, check out [the VSCode repository](https
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+* [Questions](#questions)
 
 
 ## Installation
@@ -68,10 +69,12 @@ If your project has a lot of features, consider adding a heading called "Feature
 
 If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
 
+## Questions
+
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkDown;
