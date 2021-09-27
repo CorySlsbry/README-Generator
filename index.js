@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const markdown = require('./utils/generateMarkDown.js')
+const generateMarkDown= require('./utils/generateMarkDown.js')
 const util = require('util')
 const writeFile = util.promisify(fs.writeFile)
 
@@ -40,7 +40,7 @@ const questions = () =>
         },
         {
             type: "input",
-            name: "Contributing",
+            name: "Contributors",
             message: "Please describe contributors and how to contribute if open source."
         },
         {
